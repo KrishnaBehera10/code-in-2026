@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 50%;
+  height: 80%;
+  background-image: url("https://images.pexels.com/photos/36457901/pexels-photo-36457901.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box:nth-child(1) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
