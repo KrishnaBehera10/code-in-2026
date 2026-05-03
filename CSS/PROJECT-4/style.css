@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 1rem;
+}
+
+html {
+  font: clamp(16px, 1.5vw, 25px);
+  font-family: "Noto Sans", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(192, 188, 188, 0.247);
+}
+
+nav h1 {
+  color: white;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.sub-link {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sub-link,
+.search,
+.menu {
+  background-color: rgb(255, 255, 255);
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1599599054812-1fee22d625e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.2rem;
+}
+
+.content .text {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text p {
+  font-size: 3rem;
+  margin-left: 5%;
+  white-space: nowrap;
+}
+
+.content span {
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  border-radius: 2rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 2rem;
+}
+
+.content .arrow {
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.content .content-bottom {
+  align-self: self-end;
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 2.5rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  white-space: nowrap;
+  gap: 1rem;
+  text-transform: uppercase;
+}
+
+.content-bottom .up {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
